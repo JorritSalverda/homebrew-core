@@ -1,12 +1,12 @@
 class Infinity < Formula
     desc "Infinity is a CLI to easily build your applications using a pipeline as code"
     homepage "https://github.com/JorritSalverda/infinity"
-    url "https://github.com/JorritSalverda/infinity/releases/download/v0.1.15/infinity-v0.1.15-darwin-amd64.zip"
-    sha256 "a6561d9a2bf352ffde04c3dcce5fb653774bc0f41200e5f0d77c407869891e7e"
-    version "0.1.15"
+    url "https://github.com/JorritSalverda/infinity/releases/download/v0.1.16/infinity-v0.1.16-darwin-amd64.zip"
+    sha256 "f0e8fd63c3381540874571d2f5b8597c445f6006a29f84dae44d9c96ab699922"
+    version "0.1.16"
 
   def install
-    bin.install "infinity-v0.1.15-darwin-amd64" => "infinity"
+    bin.install "infinity-v0.1.16-darwin-amd64" => "infinity"
   end
 
   test do
